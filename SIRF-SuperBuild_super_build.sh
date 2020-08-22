@@ -96,7 +96,8 @@ then
         -DCUDA_USE_STATIC_CUDA_RUNTIME:BOOL=OFF \
         -DDEVEL_BUILD:BOOL=ON \
         -DDISABLE_CUDA:BOOL=ON \
-        -DDISABLE_Matlab:BOOL=ON \
+        -DDISABLE_Matlab:BOOL=OFF \
+        -DDISABLE_Python:BOOL=OFF \
         -DGadgetron_USE_CUDA:BOOL=OFF \
         -DHDF5_USE_CUDA:BOOL=OFF \
         -DNiftyPET_PYTHON_EXECUTABLE:STRING="/usr/bin/python3.6m" \
@@ -210,6 +211,7 @@ then
         -DDEVEL_BUILD:BOOL=ON \
         -DDISABLE_CUDA:BOOL=ON \
         -DDISABLE_Matlab:BOOL=ON \
+        -DDISABLE_Python:BOOL=OFF \
         -DGadgetron_USE_CUDA:BOOL=OFF \
         -DHDF5_USE_CUDA:BOOL=OFF \
         -DNiftyPET_PYTHON_EXECUTABLE:STRING="/usr/bin/python3.6m" \
@@ -344,7 +346,8 @@ else
     -DCUDA_USE_STATIC_CUDA_RUNTIME:BOOL=OFF \
     -DDEVEL_BUILD:BOOL=ON \
     -DDISABLE_CUDA:BOOL=ON \
-    -DDISABLE_Matlab:BOOL=ON \
+    -DDISABLE_Matlab:BOOL=OFF \
+    -DDISABLE_Python:BOOL=OFF \
     -DGadgetron_USE_CUDA:BOOL=OFF \
     -DHDF5_USE_CUDA:BOOL=OFF \
     -DNiftyPET_PYTHON_EXECUTABLE:STRING="/usr/bin/python3.6m" \
